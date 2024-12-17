@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\stefanini\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\stefanini\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.androidx.migration\1.0.10\buildTransitive\monoandroid120\Xamarin.AndroidX.Migration.props" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.migration\1.0.10\buildTransitive\monoandroid120\Xamarin.AndroidX.Migration.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.fonts.fluent\2.2.2\buildTransitive\Uno.Fonts.Fluent.props" Condition="Exists('$(NuGetPackageRoot)uno.fonts.fluent\2.2.2\buildTransitive\Uno.Fonts.Fluent.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui\4.9.20\buildTransitive\net7.0\uno.winui.props" Condition="Exists('$(NuGetPackageRoot)uno.winui\4.9.20\buildTransitive\net7.0\uno.winui.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.fonts.fluent\2.2.2\buildTransitive\Uno.Fonts.Fluent.props" Condition="Exists('$(NuGetPackageRoot)uno.fonts.fluent\2.2.2\buildTransitive\Uno.Fonts.Fluent.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui\4.9.20\buildTransitive\net7.0-ios\uno.winui.props" Condition="Exists('$(NuGetPackageRoot)uno.winui\4.9.20\buildTransitive\net7.0-ios\uno.winui.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.fonts.fluent\2.2.2\buildTransitive\Uno.Fonts.Fluent.props" Condition="Exists('$(NuGetPackageRoot)uno.fonts.fluent\2.2.2\buildTransitive\Uno.Fonts.Fluent.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui\4.9.20\buildTransitive\net7.0-maccatalyst\uno.winui.props" Condition="Exists('$(NuGetPackageRoot)uno.winui\4.9.20\buildTransitive\net7.0-maccatalyst\uno.winui.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\stefanini\.nuget\packages\uno.winui\4.9.20</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\stefanini\.nuget\packages\uno.winui.remotecontrol\4.9.20</PkgUno_WinUI_RemoteControl>
+    <PkgUno_Resizetizer Condition=" '$(PkgUno_Resizetizer)' == '' ">C:\Users\stefanini\.nuget\packages\uno.resizetizer\1.1.0</PkgUno_Resizetizer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\stefanini\.nuget\packages\uno.winui\4.9.20</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\stefanini\.nuget\packages\uno.winui.remotecontrol\4.9.20</PkgUno_WinUI_RemoteControl>
+    <PkgUno_Resizetizer Condition=" '$(PkgUno_Resizetizer)' == '' ">C:\Users\stefanini\.nuget\packages\uno.resizetizer\1.1.0</PkgUno_Resizetizer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\stefanini\.nuget\packages\uno.winui\4.9.20</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\stefanini\.nuget\packages\uno.winui.remotecontrol\4.9.20</PkgUno_WinUI_RemoteControl>
+    <PkgUno_Resizetizer Condition=" '$(PkgUno_Resizetizer)' == '' ">C:\Users\stefanini\.nuget\packages\uno.resizetizer\1.1.0</PkgUno_Resizetizer>
+  </PropertyGroup>
+</Project>

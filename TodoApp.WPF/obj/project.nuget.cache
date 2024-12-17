@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "zMHk8NsMi0g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefanini\\Downloads\\PDMI6-TP4-main\\samples\\TodoApp\\TodoApp.WPF\\TodoApp.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefanini\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\stefanini\\.nuget\\packages\\microsoft.datasync.client\\6.0.0\\microsoft.datasync.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\stefanini\\.nuget\\packages\\microsoft.maui.essentials\\8.0.83\\microsoft.maui.essentials.8.0.83.nupkg.sha512",
+    "C:\\Users\\stefanini\\.nuget\\packages\\microsoft.maui.graphics\\8.0.83\\microsoft.maui.graphics.8.0.83.nupkg.sha512",
+    "C:\\Users\\stefanini\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\stefanini\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512",
+    "C:\\Users\\stefanini\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
